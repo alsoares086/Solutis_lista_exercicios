@@ -10,9 +10,9 @@ public abstract class Pessoa {
     }
 
     public Pessoa(String nome, String endereco, String telefone) {
-        this.nome = nome;
-        this.endereco = endereco;
-        this.telefone = telefone;
+        this.nome = "";
+        this.endereco = "";
+        this.telefone = "";
     }
 
     // Essa seria uma terceira opcao caso o endereço seja desconhecido no momento do cadastro
