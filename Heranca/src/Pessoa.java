@@ -15,6 +15,13 @@ public abstract class Pessoa {
         this.telefone = telefone;
     }
 
+    // Essa seria uma terceira opcao caso o endereço seja desconhecido no momento do cadastro
+    public Pessoa(String nome, String telefone) {
+        this.nome = nome;
+        this.endereco = ""; // Ou algum valor padrão, se preferir
+        this.telefone = telefone;
+    }
+
     public String getNome() {
         return nome;
     }
