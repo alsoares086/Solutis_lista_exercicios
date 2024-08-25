@@ -11,17 +11,17 @@ public class Main {
         System.out.println("\nTestando a classe Empregado:");
         System.out.println("Salario do Empregado: " + empregado.calcularSalario());
 
-        //testanto a classe Administrador
+        //testando a classe Administrador
         Administrador administrador = new Administrador("Jose Peixoto", "Rua Chico Mendas, Bairro Floresta", "11 987563214", 2, 5000.0, 20.0, 1000.0);
         System.out.println("\nTestando a classe Administrador:");
         System.out.println("Salario do Administrador: " + administrador.calcularSalario());
 
-        //testanto a classe Operario
+        //testando a classe Operario
         Operario operario = new Operario("Mario Bros", "Rua dos cogumelos, Bairro da Estrela", "11 996743685", 3, 5000.0, 10.0, 1000.0, 10.0);
         System.out.println("\nTestando a classe Operario:");
         System.out.println("Salario do Operario: " + operario.calcularSalario());
 
-        //testanto a classe Vendedor
+        //testando a classe Vendedor
         Vendedor vendedor = new Vendedor("Luigi", "Rua dos cogumelos, Bairro da Estrela", "11 996743686", 4, 5000.0, 15.0, 3000.0, 15.0);
         System.out.println("\nTestando a classe Vendedor:");
         System.out.println("Salario do Vendedor: " + vendedor.calcularSalario());
