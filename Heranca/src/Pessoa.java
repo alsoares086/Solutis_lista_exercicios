@@ -4,15 +4,15 @@ public abstract class Pessoa {
     protected String telefone;
 
     public Pessoa() {
-        this.nome = nome;
-        this.endereco = endereco;
-        this.telefone = telefone;
-    }
-
-    public Pessoa(String nome, String endereco, String telefone) {
         this.nome = "";
         this.endereco = "";
         this.telefone = "";
+    }
+
+    public Pessoa(String nome, String endereco, String telefone) {
+        this.nome = nome;
+        this.endereco = endereco;
+        this.telefone = telefone;
     }
 
     // Essa seria uma terceira opcao caso o endereço seja desconhecido no momento do cadastro
